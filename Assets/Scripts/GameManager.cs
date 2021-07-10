@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
 
     public Image H1, H2, H3;
     public TextMeshProUGUI Timer, Score;
+
     public GameObject obst;
     public GameObject coin;
 
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
 
     [HideInInspector] public int maxHealth = 3;
     [HideInInspector] public int currentHealth = 3;
+
     [HideInInspector] public int ScorePoint = 0;
     [HideInInspector] public bool gameOver = false;
 
